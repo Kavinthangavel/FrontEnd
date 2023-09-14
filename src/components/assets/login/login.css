@@ -1,0 +1,67 @@
+body {
+    font-family: 'Poppins';
+  }
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00ffe5e8;
+  }
+  
+  .login-form {
+    background-color: #6358585e;
+    padding: 100px;
+    border-radius: 17px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .login-form h1 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+
+  }
+  p {
+  margin-top: 20px; /* Adds space above the <p> element */
+  text-align: center; /* Centers the text within the <p> element */
+  font-size: 16px; /* Adjust the font size as needed */
+  color: #333; /* Text color */
+}
+
+/* Style the <p> element inside the signup form separately */
+.signup-form p {
+  margin-top: 10px; /* Adjust the top margin for the <p> element in the signup form */
+  font-size: 14px; /* Adjust the font size for the signup form <p> element */
+}
