@@ -20,25 +20,25 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Advanced email validation using regex
+    
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailPattern.test(email)) {
       window.alert('Invalid email format');
       return;
     }
 
-    // Advanced password complexity validation
+    
     const passwordPattern = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=!]).*$/;
     if (!passwordPattern.test(password) || password.length < 8) {
       window.alert('Password must be at least 8 characters and contain at least one number, one uppercase, one lowercase letter, and one special character.');
       return;
     }
 
-    // If both email and password are valid, you can proceed with your authentication logic here
+    
     console.log('Email:', email);
     console.log('Password:', password);
 
-    // Clear the error message
+    
     setErrorMessage('');
   };
 

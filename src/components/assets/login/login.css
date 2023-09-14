@@ -54,14 +54,14 @@ body {
 
   }
   p {
-  margin-top: 20px; /* Adds space above the <p> element */
-  text-align: center; /* Centers the text within the <p> element */
-  font-size: 16px; /* Adjust the font size as needed */
-  color: #333; /* Text color */
+  margin-top: 20px; 
+  text-align: center; 
+  font-size: 16px; 
+  color: #333; 
 }
 
-/* Style the <p> element inside the signup form separately */
+
 .signup-form p {
-  margin-top: 10px; /* Adjust the top margin for the <p> element in the signup form */
-  font-size: 14px; /* Adjust the font size for the signup form <p> element */
+  margin-top: 10px; 
+  font-size: 14px; 
 }

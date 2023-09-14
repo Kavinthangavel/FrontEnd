@@ -30,38 +30,37 @@ function Signup() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Advanced name validation (at least 2 characters)
+    
     if (!name || name.length < 2) {
       window.alert('Name must be at least 2 characters');
       return;
     }
 
-    // Advanced email validation using regex
+
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailPattern.test(email)) {
       window.alert('Invalid email format');
       return;
     }
 
-    // Advanced password strength validation (at least 8 characters, containing numbers, uppercase, and lowercase)
+    
     const passwordPattern = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-Z\d@$.!%*#?&]/;
     if (!passwordPattern.test(password) || password.length < 8) {
       window.alert('Password must be at least 8 characters and contain at least one number, one uppercase, and one lowercase letter.');
       return;
     }
 
-    // Check if the password and repeat password match
+
     if (password !== repeatPassword) {
       window.alert('Passwords do not match');
       return;
     }
 
-    // If all validations pass, you can proceed with your signup logic here
     console.log('Name:', name);
     console.log('Email:', email);
     console.log('Password:', password);
 
-    // Clear the error message
+   
     setErrorMessage('');
   };
 
