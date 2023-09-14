@@ -6,15 +6,19 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #00ffe5e8;
+    background: linear-gradient(to bottom, #8e9eab, #eef2f3); 
   }
   
   .login-form {
-    background-color: #6358585e;
-    padding: 100px;
-    border-radius: 17px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    background:transparent;
+  backdrop-filter: blur(20px);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  padding: 150px;
+  width: 250px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  text-align: center;
+    
   }
   
   .login-form h1 {
@@ -34,9 +38,11 @@ body {
   .form-group input {
     width: 100%;
     padding: 10px;
-    color: #fff;
+    color: #ffffff;
+    background-color: #ffffff52;
     border: 1px solid #ccc;
     border-radius: 10px;
+   ; 
   }
   
   button {

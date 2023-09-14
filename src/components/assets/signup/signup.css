@@ -1,55 +1,76 @@
 body {
-    font-family: 'Poppins';
-  }
+  font-family: 'Poppins';
+}
+
 .signup-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #00ffe5e8;
-  }
-  
-  .signup-form {
-    background-color: #6358585e;
-    padding: 150px;
-    width: 250px;
-    border-radius: 17px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .signup-form h1 {
-    margin-bottom: 20px;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-    text-align: left;
-  }
-  
-  .form-group label {
-    display: block;
-    font-weight: bold;
-  }
-  
-  .form-group input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-  }
-  
-  button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #8e9eab, #eef2f3);
+}
+
+.signup-form {
+  background:transparent;
+  backdrop-filter: blur(20px);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  padding: 150px;
+  width: 250px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.signup-form h1 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  position: relative;
+  display: inherit;
+  margin: 0;
+  border: none;
+  outline-color: #8e9eab, #eef2f3;
+ 
+
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+p {
+  margin-top: 20px; 
+  text-align: center; 
+  font-size: 16px; 
+  color: #333; 
+}
+
+.login-form p {
+  margin-top: 10px; 
+  font-size: 14px; 
+}
