@@ -5,8 +5,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 98vh;
     background: linear-gradient(to bottom, #8e9eab, #eef2f3); 
+    background-image: image();
   }
   
   .login-form {
