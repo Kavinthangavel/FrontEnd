@@ -115,7 +115,7 @@ function Signup() {
             required
           />
         </div>
-        <button type="submit">Sign Up</button>
+        <button type="submit"><span>Signup</span></button>
         <p>
           Already have an account? <Link to="/login">Login</Link>
         </p>
