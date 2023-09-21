@@ -40,6 +40,10 @@ function Login() {
 
     
     setErrorMessage('');
+
+    const routeHome = () => {
+      navigator('/home');
+    }
   };
 
   return (
@@ -71,7 +75,9 @@ function Login() {
             required
           />
         </div>
-        <button type="submit"><span>Login</span></button>
+        <Link to="/home">
+        <button type="submit" ><span>Login</span></button>
+        </Link>
         <p>
           Don't have an account? <Link to="/signup">Sign up</Link>
         </p>

@@ -1,0 +1,133 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p {
+  
+  margin: 0;
+  padding: 0;
+}
+p{
+  color: black;
+}
+
+/* Define global styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the header (navbar) */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+/* Style the hero section */
+.hero {
+  background-image: url('bg.jpg'); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 40px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the about section */
+.about {
+  background-color: #f8f8f8;
+  padding: 80px 0;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Style the features section */
+.features {
+  align-items: center;
+  padding: 80px 0;
+  background-color: #ffffff01;
+}
+
+.features h2 {
+  align-items: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.feature {
+  flex: 1;
+  max-width: 300px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.feature h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
